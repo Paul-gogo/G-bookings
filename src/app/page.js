@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar/Navbar";
-import BookingApp from "./components/Hero/Hero";
-import Visited from "./components/Place/Visited";
-import Pick from "./components/Choose/Pick";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
+import BookingApp from "./Components/Hero/Hero";
+import Visited from "./Components/Place/Visited";
+import Pick from "./Components/Choose/Pick";
+import Footer from "./Components/Footer/Footer";
 
 import styles from "./globals.css";
 
