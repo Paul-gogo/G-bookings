@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import BookingApp from "./components/Hero/Hero";
-import Visited from "./components/place/Visited";
-import Pick from "./components/choose/Pick";
+import Visited from "./components/Place/Visited";
+import Pick from "./components/Choose/Pick";
 import Footer from "./components/Footer/Footer";
 
 import styles from "./globals.css";
