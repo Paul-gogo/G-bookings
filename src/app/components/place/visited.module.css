@@ -1,0 +1,82 @@
+.pop {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.general {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img1 {
+  background-image: url('../images/download\ \(1\).jpg');
+}
+
+.img2 {
+  background-image: url('../images/download\ \(2\).jpg');
+}
+
+.img3 {
+  background-image: url('../images/download.jpg');
+}
+
+.img4 {
+  background-image: url('../images/portugal-hike-most-beautiful-places-h.jpg');
+}
+
+.p {
+  color: white;
+  font-size: 1.25rem;
+  padding-top: 80%;
+  padding-left: 10%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .general {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    margin: 0 20px;
+    height: 300px;
+  }
+
+  .p {
+    font-size: 1.5rem;
+    padding-top: 75%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .general {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    height: 350px;
+  }
+}

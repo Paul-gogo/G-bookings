@@ -1,0 +1,75 @@
+.footer {
+  background-color: #0d1224;
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.columns {
+  display: grid;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+/* Default: 4 columns (desktop/laptop) */
+@media screen and (min-width: 1025px) {
+  .columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Medium screens: tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small screens: phones */
+@media screen and (max-width: 768px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.column h2, .column h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+
+  :hover{
+    color: #0095E6;
+  }
+}
+
+.column p, .column ul li {
+  font-size: 0.95rem;
+  color: #d1d5db;
+  line-height: 1.6;
+
+   :hover{
+    color: #0095E6;
+  }
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+   :hover{
+    color: #0095E6;
+  }
+}
+
+.bottom {
+  border-top: 1px solid #1f2937;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #9ca3af;
+
+   :hover{
+    color: #0095E6;
+  }
+}

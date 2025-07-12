@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.hero {
+    background-color:  #0095E6;
+    width: 100vw;
+    height: 550px;
+    margin-top: 80px;
+}
+.trip{
+    font-family: "Inter", sans-serif;
+}
+.forms{
+    /* display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        width: 100vw;
+        height: 800px;
+    }
+}
+
+
+
+
